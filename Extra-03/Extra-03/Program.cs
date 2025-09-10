@@ -1,0 +1,13 @@
+﻿Console.WriteLine(" Cauculadora de DELTA ");
+Console.WriteLine("-----------------------");
+Console.WriteLine("Digite o valor de A:");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o valor de B:");
+int b  = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o valor de C");
+int c = int.Parse(Console.ReadLine());
+double delta = (b * b - 4 * a * c);
+Console.WriteLine($"Valor de A -> {a}");
+Console.WriteLine($"Valor de B -> {b}");
+Console.WriteLine($"Valor de C -> {c}");
+Console.WriteLine($"Valor de DELTA -> {delta}");
