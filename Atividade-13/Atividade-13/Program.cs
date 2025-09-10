@@ -9,11 +9,23 @@ if (num1 > num2 && num1 > num3 && num2 > num3)
 {
     Console.WriteLine($"Então em ordem crescente os números ficam assim: {num3}, {num2} e {num1}");
 }
+else if (num1 > num2 && num1 > num3 && num2 < num3)
+{
+    Console.WriteLine($"Então em ordem crescente os números ficam assim: {num2}, {num3} e {num1}");
+}
+else if (num1 < num2 && num1 < num3 && num2 < num3 )
+{
+    Console.WriteLine($"Então em ordem crescente os número ficam assim: {num1}, {num2} e {num3}");
+}
+else if (num1 < num2 && num1 < num3 && num2 > num3)
+{
+    Console.WriteLine($"Então em ordem crescente os número ficam assim: {num1}, {num3} e {num2}");
+}
 else if (num2 > num1 && num2 > num3 && num1 > num3)
 {
     Console.WriteLine($"Então em ordem crescente os números ficam assim: {num3}, {num1} e {num2}");
 }
-else
+else 
 {
     Console.WriteLine($"Então em ordem crescente os número ficam assim: {num2}, {num1} e {num3}");
 }
