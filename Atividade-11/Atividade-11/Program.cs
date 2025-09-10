@@ -3,9 +3,9 @@ int anoatual = int.Parse(Console.ReadLine());
 Console.WriteLine("E em qual ano Você nasceu?");
 int anonascimento =  int.Parse(Console.ReadLine());
 int idade = anoatual -  anonascimento;
-if (idade >= 18)
+if (idade > 18 && idade <70)
 {
-    Console.WriteLine("Seu voto é obrigatório a partir desse ano!");
+    Console.WriteLine("Seu voto é obrigatório esse ano!");
 }
 else
 {
