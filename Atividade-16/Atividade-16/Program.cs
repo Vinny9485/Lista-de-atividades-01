@@ -19,4 +19,3 @@ else
 {
     Console.WriteLine("Fatorial negativo não existe!");
 }
-
